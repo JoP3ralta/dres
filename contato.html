@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil Tur</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div class="nav_header">
+                <div class="nav_logo">
+                    <a href="home.html">Brasil<span>&nbsp;Tur</span>&nbsp;<img class="img_logo" src="imagens/icone.png" alt=""></a>
+                </div>
+                <ul class="nav_links" id="nav-links">
+                    <li><a href="home.html">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="destinos.html">Destinos</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="cadastro.html">Cadastro</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="btn_sign_in">
+                    <input type="button" value="Sign In">
+                    <a href="contato.html"></a>
+                </div>
+                </div>
+                <div class="nav_menu_btn" id="menu">
+                    <span></span>
+                </div>
+            
+        </nav>
+
+    </header>
+
+    <main>
+
+
+
+    </main>
+
+    <footer class="footer_content">
+
+        <div>
+            <h3>Instituto da Oportunidade Social&copy;</h3>
+        </div>
+
+    </footer>
+
+    <article>
+        <section class="con">
+            <h1>Entre em contato conosco: <br>
+                <span>deixe suas informações</span>
+            </h1>
+        </section>
+
+        <section>
+
+            <div id="area-form"> 
+            
+                <div class="post_form">
+    
+                    <h2 class="form_text">Preencha o formulário:</h2>
+
+                </div>
+
+            </div>  
+
+            <form class="form" method="post" action="#">
+                <div class="area">
+                    <fieldset id="usuario">
+                        <legend>Dados Pessoais</legend>
+                        <br>
+                            <label for="nome"></label>
+                                <input type="text" name="	nome" id="nome" placeholder="Nome" required="">
+            
+                        <label for="sobrenome"></label>
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+            
+                            <label for="cpf"></label>
+                                <input type="text" name="cpf" placeholder="000.000.000-00" required>
+            
+                            <label for="dtnasc"></label>
+                                <input type="date" name="dtnasc" id="dtnasc" required>
+            
+                        <fieldset id="sexo">
+                                <legend>Sexo: </legend>
+                                <label for="masc">Masculino<input type="radio" name="sexo" id="masc" checked required></label> <br>
+                                <br>
+                                <label for="fem">Feminino<input type="radio" name="sexo" id="fem" required></label>
+                        </fieldset>
+            
+                    </fieldset>
+            
+                    <fieldset id="endereco">
+                        <legend>Endereço</legend>
+            
+                            <label for="rua"> </label> <input type="text" name="rua" id="rua" placeholder="Rua" required>
+            
+                            <label for="numero"> </label><input type="number" name="numero" id="numero" required placeholder="Número:">
+            
+                            <label for="bairro"> </label><input type="text" name="bairro" id="bairro" placeholder="Bairro" >
+            
+                            <label for="cidades"> &nbsp; </label>
+                                <select id="cidades" required>
+                                    <option value="cidade"> São Paulo</option>
+                                    <option value="cidade"> Minas Gerais</option>
+                                    <option value="cidade"> Rio de Janeiro</option>
+                                    <option value="cidade"> Santa Catarina</option>
+                                    <option value="cidade"> Ceará</option>
+                                </select>
+
+                                <label for="">Estado</label>
+                    </fieldset>
+
+                    <br>
+            
+                    &nbsp;&nbsp;<button class="btn"><strong>ENVIAR</strong></button>
+                    
+                </form>
+
+        </section>
+            
+    </article>
+
+</body>
+
+</html>
